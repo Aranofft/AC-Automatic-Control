@@ -20,10 +20,29 @@ Turn AC ON and OFF infront of the IR reciever. Copy the printed code from the se
 
 ## Third stage- Build AC automatic control
 Equipment:
-
+1. Arduino Uno
+2. M-M Junper wires
+3. Breadboard
+4. 940nm IR emitter
+5. 470 ohm resistor
+6. 2N2222 transistor
+7. DHT11 Temperature snd humidity sensor
+8. Power supply module
+9. LCD1602 module
+10. Potentiometer (10k)
+11. 3 X 4 Keyboard
+12. HC-SR501 PIR motion sensor
+13. Toggle switch ON-OFF 2Pin
+14. 9V Battery
+15. 9V Battery holder box
 See figure below:
+![image](https://github.com/Aranofft/AC-Automatic-Control/assets/139975410/b59040a8-83d2-4abc-9f01-67e20f34f18e)
 
 Connect components according to the scheme below:
+![image](https://github.com/Aranofft/AC-Automatic-Control/assets/139975410/b3c27241-e6b1-402b-881d-f34d3d40bbc3)
+
+
+
 
 
 
