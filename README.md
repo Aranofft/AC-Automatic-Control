@@ -1,5 +1,5 @@
 # AC-Automatic-Control
-Home made electronics project. An AC automatic control device that switched AC ON and OFF autoumaticely based on a temperature sensor and the user defined threshold. Also turns off AC when no occupants are in room based on the motion detection of an HC-SR501 PIR Sensor. Data is shown on an LC screen and user input is given by a small key board.
+Home made electronics project. An AC control device that switched AC ON and OFF autoumaticely based on a temperature sensor and the user defined threshold. Also turns off AC when no occupants are in room based on the motion detection of an HC-SR501 PIR Sensor. Data is shown on an LC screen and user input is given by a small key board.
 
 Project was performed with the help of the project:
 https://github.com/LokeshPatil-loki/akarsh98-Automatic-AC-Control-using-Arduino
