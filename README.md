@@ -1,5 +1,5 @@
 # AC-Automatic-Control
-Small home made electronic project. An AC automatic control device, that switched AC on and off autoumaticely based on temperature sensor and the user defined threshold. Also turns off AC when no occupants are on room based on an HC-SR501 PIR Sensor. Data is shown on an LC screen and user input is given by a small key board.
+Home made electronics project. An AC automatic control device that switched AC ON and OFF autoumaticely based on a temperature sensor and the user defined threshold. Also turns off AC when no occupants are in room based on the motion detection of an HC-SR501 PIR Sensor. Data is shown on an LC screen and user input is given by a small key board.
 
 ## First stage- detect AC codes from AC remote
 Equipment:
@@ -24,6 +24,8 @@ Connect arduino to computer, open Arduino IDE and burn the code file 'IRreciever
 Turn AC ON and OFF infront of the IR reciever. Copy the printed code from the serial monitor in the Arduino IDE and save it somewhere.
 
 ## Second stage- paste codes
+While the Arduino is connected by USB cable to the computer, turn the AC remote control infronte of the IR reciever and turn the AC ON and OFF.
+Open the serial monitor in the IDE and copy the given codes to a notepad or equivalent. Open the IRSender code and replace the rawDataOn1 and rawDataOff1 codes with the copied ones, correspondingly to the ON and OFF states.
 
 ## Third stage- Build AC automatic control
 Equipment:
@@ -55,7 +57,17 @@ Connect components according to the scheme below:
 
 Figure 4
 
+The connected system looks as follows:
 
+<img src="https://github.com/Aranofft/AC-Automatic-Control/assets/139975410/5b0a80a6-8dab-42c0-a0e7-3e5613320443" width="300" height="200">
+
+Figure 5
+
+After some arrangements:
+
+<img src="https://github.com/Aranofft/AC-Automatic-Control/assets/139975410/8b9470db-4b91-4456-b72a-109b5686e159" width="300" height="200">
+
+Figure 6
 
 
 
