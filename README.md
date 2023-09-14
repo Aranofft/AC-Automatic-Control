@@ -4,7 +4,7 @@ Home made electronics project. An AC automatic control device that switched AC O
 Project was performed with the help of the project:
 https://github.com/LokeshPatil-loki/akarsh98-Automatic-AC-Control-using-Arduino
 
-With numerous differences including the addition of presence detection, manual threshold changing using the keypad, LCD screen for watching current temperature, AC state, presence state and chosed threshold.
+With significant upgrates including: the addition of presence detection, manual threshold changing using the keypad, LCD screen for watching current temperature, AC state, presence state and chosed threshold.
 
 ## First stage- detect AC codes from AC remote
 Equipment:
